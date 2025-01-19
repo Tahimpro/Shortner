@@ -46,11 +46,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CpFlicks_Movies')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CpFlicks')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CpFlix')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+BNZs3Q3kwmIwMDll')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'https://t.me/+BNZs3Q3kwmIwMDll')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/How2download_Cpflix_Files/4')
 
 # Log Channels
