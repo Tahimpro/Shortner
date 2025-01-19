@@ -54,8 +54,8 @@ SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/How2download_Cpflix_Files/4')
 
 # Log Channels
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002152223940')
-RQST_LOG_CHANNEL = environ.get('RQST_LOG_CHANNEL', '-1002152223940')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
 
 # Bot Options
 IS_VERIFY = bool(environ.get('IS_VERIFY', True))
